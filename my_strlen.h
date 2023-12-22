@@ -1,5 +1,5 @@
-#ifndef LAB6_H
-#define LAB6_H
+#ifndef MY_STRLEN_H
+#define MY_STRLEN_H
 
 #include <stdint.h>
 
