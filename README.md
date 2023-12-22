@@ -14,7 +14,7 @@ This gives `my_strlen` the ability to accurately calculate the length of UTF-8 e
 
 ## How does it work?
 
-The regular 128 ASCII characters most people are familiar with are all represented via a single byte. This makes it simple for `strlen` to determine the character count of a string, as it just needs to count the number of bytes. UTF-8 vastly expands upon the ASCII table of characters by allowing characters to use up to 4 bytes, allowing us to encode our strings with over 1.1 million possible unicode characters and symbols. 
+The regular 128 ASCII characters most people are familiar with are all represented via a single byte. This makes it simple for `strlen` to determine the character count of a string, as it just needs to count the number of bytes. UTF-8 vastly expands upon the ASCII table of characters by allowing characters to use up to 4 bytes, allowing us to encode our strings with over 1.1 million possible Unicode characters and symbols. 
 
 ![UTF-8 Encoding](images/utf8.png)
 
